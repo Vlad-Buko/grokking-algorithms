@@ -4,7 +4,7 @@ public abstract class Flyable {
     private String modelAir;
     private int bortNumber;
 
-    abstract public String getModelAir() {
+     public String getModelAir() {
         return modelAir;
     }
 
