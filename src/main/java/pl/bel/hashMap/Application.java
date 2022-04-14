@@ -11,6 +11,8 @@ public class Application {
         Map<Integer, Motorcycle> listModels = new HashMap<>();
         listModels.put(suzuki.getId(), suzuki);
         listModels.put(honda.getId(), honda);
+        listModels.put(suzuki.getId(), honda);
+        listModels.put(1, new Motorcycle(1, "Vlad", "Bikes"));
 
         System.out.println(listModels.get(1));
     }
