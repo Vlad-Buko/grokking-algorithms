@@ -5,9 +5,19 @@ public class Application {
         Flyable flyable = new Flyable() {
             @Override
             public String getModelAir() {
-                return super.getModelAir();
+                return "hello";
             }
         };
 
+        SomeInterface fly = new SomeInterface() {
+            @Override
+            public String implVal() {
+                return "Vlais";
+            }
+        };
+        System.out.println(flyable.getModelAir());
+        System.out.println(fly.implVal());
     }
+
+
 }
