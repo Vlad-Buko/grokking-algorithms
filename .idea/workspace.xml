@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9259a555-f78b-4ca3-bafc-16502318be4e" name="Changes" comment="Repeat interface comparable &#10;+ interface comparator">
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bel/abstractClass/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/bel/abstractClass/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bel/abstractClass/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/bel/abstractClass/Flyable.java" afterDir="false" />
+    <list default="true" id="9259a555-f78b-4ca3-bafc-16502318be4e" name="Changes" comment="Repeat interface comparable &#10;addded changes classes">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/bel/abstractClass/SomeInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/bel/abstractClass/SomeInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="comparable" />
+        <entry key="$PROJECT_DIR$" value="AbstractClass" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +51,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Application (1)">
+  <component name="RunManager" selected="Application.ApplicationFibonacci">
     <configuration name="AnonymousInnerClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.bel.anonymousInnerClasses.AnonymousInnerClasses" />
       <module name="grokking-algorithms" />
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.bel.arrayList.SelectionSort" />
+    <configuration name="ApplicationFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.algorithms.pack1.ApplicationFibonacci" />
       <module name="grokking-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.bel.arrayList.*" />
+          <option name="PATTERN" value="by.algorithms.pack1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApplicationFibonacci" />
         <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.StartApplication" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.AnonymousInnerClasses" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +146,10 @@
       <workItem from="1649964348434" duration="2935000" />
       <workItem from="1650221746629" duration="12000" />
       <workItem from="1650223569301" duration="784000" />
-      <workItem from="1650310142730" duration="498000" />
+      <workItem from="1650310142730" duration="1800000" />
+      <workItem from="1650389070558" duration="14000" />
+      <workItem from="1650399485376" duration="625000" />
+      <workItem from="1650472818357" duration="1577000" />
     </task>
     <task id="LOCAL-00001" summary="added binary search">
       <created>1648759403513</created>
@@ -204,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649966685157</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Repeat interface comparable &#10;addded changes classes">
+      <created>1650310817449</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650310817449</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +239,8 @@
     <MESSAGE value="I'm continue step in java, because a little forget" />
     <MESSAGE value="Repeat interface comparable" />
     <MESSAGE value="Repeat interface comparable &#10;+ interface comparator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repeat interface comparable &#10;+ interface comparator" />
+    <MESSAGE value="Repeat interface comparable &#10;addded changes classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repeat interface comparable &#10;addded changes classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
