@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9259a555-f78b-4ca3-bafc-16502318be4e" name="Changes" comment="Repeat interface comparable &#10;addded changes classes">
+    <list default="true" id="9259a555-f78b-4ca3-bafc-16502318be4e" name="Changes" comment="Added fib number">
+      <change afterPath="$PROJECT_DIR$/src/main/java/JustServerApp/DailyAdviceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JustServerApp/DailyAdviceServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/bel/abstractClass/SomeInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/bel/abstractClass/SomeInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/bel/abstractClass/SomeInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/bel/abstractClass/SomeInterface.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +53,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.ApplicationFibonacci">
-    <configuration name="AnonymousInnerClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.bel.anonymousInnerClasses.AnonymousInnerClasses" />
-      <module name="grokking-algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.bel.anonymousInnerClasses.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DailyAdviceClient">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.bel.abstractClass.Application" />
       <module name="grokking-algorithms" />
@@ -78,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.bel.hashMap.Application" />
+    <configuration name="ApplicationFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.algorithms.pack1.ApplicationFibonacci" />
       <module name="grokking-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.bel.hashMap.*" />
+          <option name="PATTERN" value="by.algorithms.pack1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.algorithms.pack1.ApplicationFibonacci" />
+    <configuration name="DailyAdviceClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JustServerApp.DailyAdviceClient" />
       <module name="grokking-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.algorithms.pack1.*" />
+          <option name="PATTERN" value="JustServerApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DailyAdviceServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JustServerApp.DailyAdviceServer" />
+      <module name="grokking-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JustServerApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DailyAdviceClient" />
+        <item itemvalue="Application.DailyAdviceServer" />
         <item itemvalue="Application.ApplicationFibonacci" />
         <item itemvalue="Application.Application (1)" />
         <item itemvalue="Application.StartApplication" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.AnonymousInnerClasses" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +151,8 @@
       <workItem from="1650310142730" duration="1800000" />
       <workItem from="1650389070558" duration="14000" />
       <workItem from="1650399485376" duration="625000" />
-      <workItem from="1650472818357" duration="1577000" />
+      <workItem from="1650472818357" duration="2451000" />
+      <workItem from="1650562807419" duration="1747000" />
     </task>
     <task id="LOCAL-00001" summary="added binary search">
       <created>1648759403513</created>
@@ -214,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650310817449</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added fib number">
+      <created>1650479253717</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650479253717</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +250,8 @@
     <MESSAGE value="Repeat interface comparable" />
     <MESSAGE value="Repeat interface comparable &#10;+ interface comparator" />
     <MESSAGE value="Repeat interface comparable &#10;addded changes classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repeat interface comparable &#10;addded changes classes" />
+    <MESSAGE value="Added fib number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added fib number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

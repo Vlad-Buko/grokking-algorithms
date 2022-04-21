@@ -27,3 +27,9 @@ P.idea/shelf/Uncommitted_changes_before_Checkout_at_18_04_22__22_30__Changes_.xm
 Q.idea/shelf/Uncommitted_changes_before_Checkout_at_18_04_22__22_30__Changes_1.xml,4/4/4406412c5a37ea8bdf29f980f01e575282a1ab38
 ‹
 [.idea/shelf/Uncommitted_changes_before_Checkout_at_18_04_22,_22_31_[Changes]1/shelved.patch,8/f/8fbd59d56c5da240801ece326215ce48ca75d506
+^
+.src/main/java/pl/bel/abstractClass/Boeing.java,e/8/e839772ba60b18622009c036ac2262bbd0aacd4e
+_
+/src/main/java/pl/bel/abstractClass/Flyable.java,7/7/7749cf483edb96cc27a0484f53ca6d055cd8c362
+e
+5src/main/java/pl/bel/abstractClass/SomeInterface.java,e/8/e8da626406dfa85af705e6a7a7c0d3fdc3ab2330

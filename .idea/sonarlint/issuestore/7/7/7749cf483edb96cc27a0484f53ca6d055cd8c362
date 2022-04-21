@@ -1,0 +1,8 @@
+
+y
+java:S1450"WRemove the "modelAir" field and declare it as a local variable in the relevant methods.(üáÝŒùÿÿÿÿ8àó®ñƒ0
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÊÏ±»ÿÿÿÿÿ8åó®ñƒ0
+N
+java:S1068",Remove this unused "modelAir" private field.(üáÝŒùÿÿÿÿ8çó®ñƒ0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(âý«Ä
