@@ -4,12 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9259a555-f78b-4ca3-bafc-16502318be4e" name="Changes" comment="Added fib number">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JustServerApp/DailyAdviceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JustServerApp/DailyAdviceServer.java" afterDir="false" />
+    <list default="true" id="9259a555-f78b-4ca3-bafc-16502318be4e" name="Changes" comment="Added wide client-server">
+      <change afterPath="$PROJECT_DIR$/src/main/java/bukoLibrary/firstRealization/ApplicationForJar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bukoLibrary/firstRealization/Flyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_04_22,_22_29_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_04_22,_22_30_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_04_22,_22_30_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_04_22__22_29__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_04_22__22_30__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_04_22__22_30__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/39a6deced74bde83d53ecd26607933dadab4af00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/4406412c5a37ea8bdf29f980f01e575282a1ab38" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46a865b086a279fc4c18af3eba5cfa8ac503d034" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5ccbb9dd0ab39a99173f4050c6ec048a596c4cb4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fe027a67fed916fd61cf6c383b2685e07378da5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd388fd65f1e45ed75f5334dd31956df5d217bc5" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/bel/abstractClass/SomeInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/bel/abstractClass/SomeInterface.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="AbstractClass" />
+        <entry key="$PROJECT_DIR$" value="clientandserver" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,11 +68,11 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.DailyAdviceClient">
+  <component name="RunManager" selected="Application.Suzuki">
     <configuration name="Application (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.bel.abstractClass.Application" />
       <module name="grokking-algorithms" />
@@ -114,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.bel.comparable.StartApplication" />
+    <configuration name="Suzuki" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.algorithms.pack1.Suzuki" />
       <module name="grokking-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.bel.comparable.*" />
+          <option name="PATTERN" value="by.algorithms.pack1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Suzuki" />
+        <item itemvalue="Application.ApplicationFibonacci" />
         <item itemvalue="Application.DailyAdviceClient" />
         <item itemvalue="Application.DailyAdviceServer" />
-        <item itemvalue="Application.ApplicationFibonacci" />
         <item itemvalue="Application.Application (1)" />
-        <item itemvalue="Application.StartApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +171,13 @@
       <workItem from="1650389070558" duration="14000" />
       <workItem from="1650399485376" duration="625000" />
       <workItem from="1650472818357" duration="2451000" />
-      <workItem from="1650562807419" duration="1747000" />
+      <workItem from="1650562807419" duration="2543000" />
+      <workItem from="1650841037732" duration="1014000" />
+      <workItem from="1650842928871" duration="2000" />
+      <workItem from="1650909930870" duration="497000" />
+      <workItem from="1651008416335" duration="89000" />
+      <workItem from="1651695030540" duration="663000" />
+      <workItem from="1651776168178" duration="2467000" />
     </task>
     <task id="LOCAL-00001" summary="added binary search">
       <created>1648759403513</created>
@@ -232,7 +249,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650479253717</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added wide client-server">
+      <created>1650564784958</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650564784958</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added wide client-server">
+      <created>1650564857646</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650564857646</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +290,8 @@
     <MESSAGE value="Repeat interface comparable &#10;+ interface comparator" />
     <MESSAGE value="Repeat interface comparable &#10;addded changes classes" />
     <MESSAGE value="Added fib number" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added fib number" />
+    <MESSAGE value="Added wide client-server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added wide client-server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
