@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="grokking-algorithms:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9259a555-f78b-4ca3-bafc-16502318be4e" name="Changes" comment="Added wide client-server">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bukoLibrary/firstRealization/ApplicationForJar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bukoLibrary/firstRealization/Flyable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_04_22,_22_29_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_04_22,_22_30_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_04_22,_22_30_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_04_22__22_29__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_04_22__22_30__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_04_22__22_30__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/39a6deced74bde83d53ecd26607933dadab4af00" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/4406412c5a37ea8bdf29f980f01e575282a1ab38" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/46a865b086a279fc4c18af3eba5cfa8ac503d034" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5ccbb9dd0ab39a99173f4050c6ec048a596c4cb4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fe027a67fed916fd61cf6c383b2685e07378da5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd388fd65f1e45ed75f5334dd31956df5d217bc5" beforeDir="false" />
+    <list default="true" id="9259a555-f78b-4ca3-bafc-16502318be4e" name="Changes" comment="Added jar dependency">
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/person/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/person/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/person/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domaniewski/javalearn/Streams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JustServerApp/DailyAdviceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JustServerApp/DailyAdviceClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -38,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="clientandserver" />
+        <entry key="$PROJECT_DIR$" value="library" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +62,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -177,7 +174,9 @@
       <workItem from="1650909930870" duration="497000" />
       <workItem from="1651008416335" duration="89000" />
       <workItem from="1651695030540" duration="663000" />
-      <workItem from="1651776168178" duration="2467000" />
+      <workItem from="1651776168178" duration="2635000" />
+      <workItem from="1651784056238" duration="276000" />
+      <workItem from="1652213560527" duration="1520000" />
     </task>
     <task id="LOCAL-00001" summary="added binary search">
       <created>1648759403513</created>
@@ -263,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650564857646</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added jar dependency">
+      <created>1651781269400</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651781269400</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +297,8 @@
     <MESSAGE value="Repeat interface comparable &#10;addded changes classes" />
     <MESSAGE value="Added fib number" />
     <MESSAGE value="Added wide client-server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added wide client-server" />
+    <MESSAGE value="Added jar dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added jar dependency" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
