@@ -17,6 +17,5 @@ public class Program {
                 mapToInt(p -> p.getAge())
                         .average().getAsDouble();
         System.out.println(average);
-
     }
 }
