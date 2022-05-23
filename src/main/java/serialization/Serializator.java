@@ -6,7 +6,7 @@ public class Serializator {
     public boolean serialization(Cat cat) {
         boolean flag = false;
 
-        File file = new File("Users/vladislav_domaniewski/documents");
+        File file = new File("src/Cat.data");
         ObjectOutputStream coo = null;
 
         try {
@@ -30,5 +30,33 @@ public class Serializator {
             }
         }
         return false;
+    }
+
+    public Cat deserealisation () throws InvalidObjectException {
+        File file = new File("src/Cat.data");
+
+        ObjectInputStream objectInputStream = null;
+
+        try {
+            FileInputStream fileInputStream = new FileInputStream(file);
+            if (fileInputStream != null) {
+                objectInputStream = new ObjectInputStream(fileInputStream);
+                Cat cat = (Cat) objectInputStream.readObject();
+                return cat;
+            }
+        }catch (FileNotFoundException e) {
+            e.printStackTrace();
+         } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                objectInputStream.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        throw new InvalidObjectException("sf") ;
     }
 }

@@ -5,8 +5,6 @@ V
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 c
 3src/test/java/domaniewski/javalearn/Singletone.java,a/c/ac1ed39d1026297604cda581c279d91522c9c53d
-Y
-)src/main/java/stream/StreamSomething.java,c/5/c59f6841ce948830fe8bc8d8c066decf5ad75ee6
 U
 %src/main/java/lambdaTwo/Switcher.java,2/6/267726b640e17668e0532b765fb6f68e0c3857a6
 R
@@ -19,3 +17,5 @@ S
 0src/main/java/lambdaTwo/ElectricityConsumer.java,d/7/d7ccf600b837c96f49711a2fb1709f39b642c4c1
 Q
 !src/main/java/lambdaTwo/Lamp.java,d/7/d70cd96daf7630e34604fe98dbde137f9e305462
+T
+$src/main/java/stream112/Program.java,d/b/dbae8901f95fc370f31b1a6f06976601b9d0cfb3
