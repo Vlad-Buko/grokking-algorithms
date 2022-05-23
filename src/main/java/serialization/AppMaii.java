@@ -1,11 +1,18 @@
 package serialization;
 
+import java.io.InvalidClassException;
+import java.io.InvalidObjectException;
+
 public class AppMaii {
     public static void main(String[] args) {
-        Cat cat = new Cat();
-        cat.setName("Tom");
-
         Serializator serializator = new Serializator();
-        serializator.serialization(cat);
+
+
+        try {
+            Cat cat = serializator.deserealisation();
+            System.out.println(cat.getName());
+        } catch (InvalidObjectException e) {
+            e.printStackTrace();
+        }
     }
 }
