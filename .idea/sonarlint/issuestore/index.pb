@@ -41,3 +41,7 @@ e
 5src/main/java/principles/encapsualtion/AppUseEnc.java,1/8/18471ba1145ca5a73b77ee79ab4ddc22f358d9a5
 a
 1src/main/java/principles/inheritance/Holding.java,e/a/ea4243d4b02eecc9ad3e423310f3fb1d286fa613
+b
+2src/main/java/principles/polymorphism/Vehicle.java,2/d/2d1594e260c548c7640552a560519fc45a42585d
+_
+/src/main/java/principles/polymorphism/Bike.java,5/f/5face0affc8bb6e46a244cae1d4e3585a2396e41
