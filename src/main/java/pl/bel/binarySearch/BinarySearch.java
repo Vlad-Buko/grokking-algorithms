@@ -1,8 +1,9 @@
 package pl.bel.binarySearch;
 
 public class BinarySearch {
-
-
+    /**
+        Реализация бмнарного поиска
+     */
     public static void main(String[] args) {
         int [] array = new int[] {1, 3, 5, 7, 9};
         int find = 5;
