@@ -1,8 +1,10 @@
-package TestTask;
+package testTask;
+
+import by.algorithms.pack2.Algorithm;
 
 import java.util.Map;
 
-public class GroupedCounterAlgorithm implements Algorithm <long [], Map<Long, Long>> {
+public class GroupedCounterAlgorithm implements Algorithm<long [], Map<Long, Long>> {
     @Override
     public Algorithm<long[], Map<Long, Long>> execute(long[] data) {
         return null;

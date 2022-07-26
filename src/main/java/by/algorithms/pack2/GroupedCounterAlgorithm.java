@@ -6,7 +6,7 @@ import java.util.Map;
  * Created by Vladislav Domaniewski
  */
 
-public class GroupedCounterAlgorithm implements Algorithm<long {
+public class GroupedCounterAlgorithm implements Algorithm{
 
     @Override
     public Algorithm<long[], Map<Long, Long>> execute(long[] data) {
