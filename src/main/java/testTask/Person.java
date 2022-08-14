@@ -5,6 +5,7 @@ package testTask;
  */
 
 public class Person {
+
     private String name;
     private int age;
     private Pilot pilot;
@@ -13,6 +14,7 @@ public class Person {
         this.name = name;
         this.age = age;
         this.pilot = pilot;
+
     }
 
     public Person() {

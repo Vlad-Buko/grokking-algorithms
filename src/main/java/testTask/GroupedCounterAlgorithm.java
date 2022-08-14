@@ -19,4 +19,5 @@ public class GroupedCounterAlgorithm implements Algorithm<long [], Map<Long, Lon
     public Map<Long, Long> get() {
         return null;
     }
+
 }
