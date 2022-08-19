@@ -1,0 +1,11 @@
+
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(üª¼í
+W
+java:S1161":Add the "@Override" annotation above this method signature(üª¼í8ë¹åà£0
+V	java:S125"<This block of commented-out lines of code should be removed.(“Šùìúÿÿÿÿ
+]	java:S125#"<This block of commented-out lines of code should be removed.(Å¹’´ýÿÿÿÿ8Ý«Úà£0
+k
+java:S1989%"PHandle the following exception that could be thrown by "getWriter": IOException.(¸„óÖÿÿÿÿÿ
+h
+java:S1192"FDefine a constant instead of duplicating this literal "count" 3 times.(›„Ã»ÿÿÿÿÿ8¾ÉØà£0
