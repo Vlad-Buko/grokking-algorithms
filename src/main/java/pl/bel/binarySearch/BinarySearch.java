@@ -1,13 +1,22 @@
 package pl.bel.binarySearch;
 
+import java.util.*;
+
 public class BinarySearch {
     /**
         Реализация бмнарного поиска
      */
     public static void main(String[] args) {
-        int [] array = new int[] {1, 3, 5, 7, 9};
-        int find = 5;
-        System.out.println(new Binary().getValueFromArrayOurElement(array, find));
+
+        BinarySearch na = new BinarySearch();
+        na.req();
+    }
+
+    public void req() {
+        Set<String> name = new HashSet<>();
+        name.add("Vlad");
+        name.add("Minsk");
+        name.add("Minsk");
     }
 
     static class Binary {
